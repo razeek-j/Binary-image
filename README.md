@@ -109,8 +109,7 @@ The following images demonstrate the application of both algorithms on a sample 
 
 ### Original Image
 
-*(Replace the placeholder URL with the actual path to your original image)*
-![Original Image](https://i.imgur.com/4f5wY7e.jpeg)
+![Original Image](./assets/A%20chair.jpg)
 
 ### Global Adaptive Thresholding Result
 
