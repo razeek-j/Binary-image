@@ -115,15 +115,13 @@ The following images demonstrate the application of both algorithms on a sample 
 
 The global method struggles with the subtle lighting variations on the chair and the floor. While it captures the main silhouette, it loses detail in shadowed areas and introduces noise where the background intensity is close to the single global threshold.
 
-*(Replace the placeholder URL with the actual path to your global result image)*
-![Global Binary Result](https://i.imgur.com/kS6LzT7.jpeg)
+![Global Binary Result](./assets/global_binary.jpg)
 
 ### Local Adaptive Thresholding Result
 
 The local method performs significantly better. By adapting to the brightness of each pixel's neighborhood, it successfully preserves the edges and details of the chair, even in areas with shadows. It clearly separates the chair from the background across the entire image, demonstrating its robustness to non-uniform illumination.
 
-*(Replace the placeholder URL with the actual path to your local result image)*
-![Local Binary Result](https://i.imgur.com/OqG0c7P.jpeg)
+![Local Binary Result](./assets/local_binary.jpg)
 
 ---
 
